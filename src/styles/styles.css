@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to right,
+    #7cfc00,
+    #ffc0cb
+  ); /* Parrot green to pink gradient background */
+  font-family: Arial, sans-serif;
+  /* Specify the path to your background image */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  padding: 20px;
+  color: #fff; /* White text color */
+}
+
+nav {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Semi-transparent black background for navbar */
+  padding: 10px 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 10px;
+}
+
+.nav-link {
+  color: #fff; /* White text color */
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for background color and text color */
+}
+
+.nav-link:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Semi-transparent white background on hover */
+  color: #7cfc00; /* Highlight text color on hover */
+}

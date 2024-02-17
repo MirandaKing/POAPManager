@@ -1,0 +1,67 @@
+/* NavBar.css */
+.navbar {
+  /* background: linear-gradient(to left, #7cfc00, #ffc0cb); */
+
+  padding: 15px 20px; /* Increased padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 0 0 20px 20px; /* Rounded from above */
+}
+
+.navbar:before,
+.navbar:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+}
+
+.navbar:before {
+  border-width: 0 0 60px 30px; /* Increased size of the left spike */
+  border-color: transparent transparent transparent #7cfc00;
+  top: 0;
+  left: 0;
+}
+
+.navbar:after {
+  border-width: 0 30px 60px 0; /* Increased size of the right spike */
+  border-color: transparent #ffc0cb transparent transparent;
+  top: 0;
+  right: 0;
+}
+
+.navbar-logo img {
+  height: 50px; /* Increased logo size */
+}
+
+.navbar-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center; /* Align links to the center */
+}
+
+.navbar-links-right {
+  margin-left: auto; /* Shift links to the right */
+}
+
+.navbar-links li {
+  margin: 0 15px; /* Increased space between links */
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px; /* Increased padding */
+  border-radius: 30px; /* Round navbar from above */
+  transition: background-color 0.3s;
+  font-size: 18px; /* Increased font size */
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,57 @@
+/* GroupManager.css */
+.group-manager {
+  background-color: rgb(12, 224, 125); /* White background color */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  max-width: 600px; /* Limit width to provide better readability */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.group-manager h2 {
+  font-size: 24px; /* Larger font size for headings */
+  margin-bottom: 20px; /* Add some spacing below the heading */
+}
+
+.group-manager input[type="text"] {
+  width: calc(100% - 80px); /* Adjust input width */
+  padding: 10px; /* Add padding */
+  margin-bottom: 10px; /* Add some spacing below the input */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.group-manager button {
+  background-color: #007bff; /* Blue background color for button */
+  color: #fff; /* White text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.group-manager button:hover {
+  background-color: #0056b3; /* Darker blue background color on hover */
+}
+
+.groups {
+  margin-top: 20px; /* Add spacing above the list of groups */
+}
+
+.group {
+  background-color: #f8f9fa; /* Light gray background color for each group */
+  padding: 15px; /* Add padding */
+  margin-bottom: 10px; /* Add some spacing between groups */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.group h3 {
+  font-size: 20px; /* Larger font size for group names */
+  margin-bottom: 5px; /* Add some spacing below the group name */
+}
+
+.group p {
+  color: #666; /* Gray text color for additional information */
+  margin-bottom: 0; /* Remove default margin */
+}
